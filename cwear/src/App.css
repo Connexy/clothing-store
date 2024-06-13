@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    
+}
+.nav-link{
+    color: #575757;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.ml-30{
+    margin-left: 92px;
+}
+.dropdown-item:hover{
+    background-color: #e7e7e7;
+}
+/* css for header of navbar*/
+.logo{
+    margin-left: 100px;
+}
+  .search-container {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-input {
+    padding-right: 30px; /* Adjust this value to create space for the icon */
+    /* Add any other styles for the input field */
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px; /* Adjust this value to move the icon further from the right edge */
+    color: #999; /* Adjust the color as needed */
+    pointer-events: none; /* Prevent clicks on the icon from triggering the input */
+}
+.cart-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-icon:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .cart-icon .fas {
+    font-size: 18px;
+  } 
