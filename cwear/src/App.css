@@ -39,21 +39,20 @@ body{
 }
 
 .search-input {
-    padding-right: 30px; /* Adjust this value to create space for the icon */
-    /* Add any other styles for the input field */
+    padding-right: 30px; 
 }
 
 .search-icon {
     position: absolute;
     right: 10px; /* Adjust this value to move the icon further from the right edge */
-    color: #999; /* Adjust the color as needed */
+    color: #575757; /* Adjust the color as needed */
     pointer-events: none; /* Prevent clicks on the icon from triggering the input */
 }
 .cart-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #333;
+    color: #575757;
     padding: 8px 12px;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -66,3 +65,7 @@ body{
   .cart-icon .fas {
     font-size: 18px;
   } 
+.yg{
+  background:url('./assets/images/yoga-girl.jpg');
+  background-size: cover;
+}
