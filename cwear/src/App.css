@@ -65,7 +65,30 @@ body{
   .cart-icon .fas {
     font-size: 18px;
   } 
-.yg{
+
+.main-1-yg{
   background:url('./assets/images/yoga-girl.jpg');
-  background-size: cover;
+  background-size:cover;
+  height: 450px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
 }
+.row{
+
+  width: 40%;
+  float: right;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+.ybtn{
+  height: 45px;
+  width: 150px;
+  background: #1979c3;
+  border: 1px solid #1979c3;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
