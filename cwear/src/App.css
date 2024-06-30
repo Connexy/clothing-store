@@ -74,8 +74,50 @@ body{
   margin-right: 100px;
   margin-top: 20px;
 }
+.main-2{
+  display: flex;
+  height: 700px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.middle-col{
+  background-color: rgb(255,221,22);
+  height: 300px;
+  
+}
+.right-col{
+  background-color: rgb(255,221,22);
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7;
+  cursor: pointer;
+}
+.spar{
+  font-size: 16px;
+}
+.right-col a{
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+}
+.right-col span{
+  font-size: 28px;
+  color: #333333;
+}
+.right-col p{
+  font-size: 20px;
+  color: #333333;
+}
+.down-col{
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+}
 .row{
-
   width: 40%;
   float: right;
   margin-top: 40px;
