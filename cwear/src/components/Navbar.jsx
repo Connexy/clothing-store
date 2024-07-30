@@ -33,7 +33,7 @@ export default function Navbar() {
                             </li>
 
                             <li className="nav-item dropdown">
-                                <a className="nav-link hover:dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a className="nav-link hover dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Gear
                                 </a>
                                 <ul className="dropdown-menu">

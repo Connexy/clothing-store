@@ -1,8 +1,9 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import NavHeader from '../components/NavHeader';
-import left from '../assets/images/left.jpg';
-import right from '../assets/images/right.png'
+import leftImg from '../assets/images/left.jpg';
+import topImg from '../assets/images/right.png';
+import bottomImg from '../assets/images/bottom.jpg';
 
 
 
@@ -26,15 +27,31 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+
             <div className='container-fluid'>
-                <div className="main-2 bg-light">
-                    <div className="left-col"><img src={left} alt='network error' style={{ height: "700px", width: "400px", marginRight: "20px" }} /> </div>
-                    <div className="middle-col"><img src={right} alt='network error' style={{ height: "300px", width: "550px", padding: "50px" }} /></div>
-                    <div className="right-col"><span>Even more ways<br /> to mix and match</span> <p>Buy 3 Luga get a 4th<br />free</p><a href="/" class="spar">Shop Tees &gt;</a></div>
+                <div className='image-sec'>
+                    <div className='left-sec'>
+                        <img src={leftImg} style={{ height: "700px", width: "100%" }} alt='network error' />
+                    </div>
+                    <div className='right-sec'>
+                        <div className='top-sec'>
+                            <div className='top-left'>
+                                <img src={topImg} style={{ height: "280xpx", width: "90%" }} alt='network error' />
+                            </div>
+                            <div className='top-right'>
+                                <strong style={{ fontSize: " 32px", fontWeight: " 300" }}>Even more ways to mix and match</strong><br />
+                                <span style={{ fontSize: " 22px", fontWeight: " 300" }}>Buy 3 luga get a 4th free</span> <br />
+                                <span style={{ fontSize: " 16px" }}>Shop Here &gt;</span>
+                            </div>
+                        </div>
+                        <div className='bottom-sec'>
+                            <img src={bottomImg} style={{ height: "380px", width: "100%" }} alt='network error' />
+                        </div>
+                    </div>
                 </div>
-
-
             </div>
+
+
 
 
 
