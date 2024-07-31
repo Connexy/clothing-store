@@ -180,13 +180,38 @@ body{
   background-color: #FFDD16;
   display: flex;
   flex-direction: column;
-  
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 30px;
  }
-
  .bottom-sec{
+  background: url("./assets/images/bottom.jpg");
+  background-size: cover;
   height: 380px;
   width: 830px;
   margin-top: 10px;
+ }
+ .bottom-info{
+  height: 250px;
+  width: 600px;
+  float: right;
+  margin-top: 80px;
+  margin-right: 50px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 30px;
+ }
+ 
+
+ .Main-content-header{
+  height: 100px;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
  }

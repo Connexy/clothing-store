@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import NavHeader from '../components/NavHeader';
 import leftImg from '../assets/images/left.jpg';
 import topImg from '../assets/images/right.png';
-import bottomImg from '../assets/images/bottom.jpg';
+
 
 
 
@@ -45,9 +45,21 @@ export default function Home() {
                             </div>
                         </div>
                         <div className='bottom-sec'>
-                            <img src={bottomImg} style={{ height: "380px", width: "100%" }} alt='network error' />
+
+                            <div className='bottom-info'>
+                                <strong style={{ fontSize: " 32px", fontWeight: " 300" }}>Twice around, twice as nice</strong><br />
+                                <span style={{ fontSize: " 22px", fontWeight: " 300" }}>Find conscientious, confy clothing in our eco-friendly collection</span> <br />
+                                <span style={{ fontSize: " 16px" }}>Shop Eco-Friendly &gt;</span>
+                            </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div className='container-fluid'>
+                <div className='Main-content-header'>
+                    <h2 style={{ fontWeight: "300" }}>Hot Sellers</h2>
+                    <p style={{ fontSize: "18px", fontWeight: "400" }}>Here is what's trending on Luga right now</p>
                 </div>
             </div>
 
