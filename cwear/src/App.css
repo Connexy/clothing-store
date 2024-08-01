@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -215,3 +216,119 @@ body{
   align-items: center;
   justify-content: center;
  }
+
+ .Main-Content{
+  height: auto;
+  width: auto;
+  /* border: 1px solid black; */
+  padding: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+
+
+.box .mall{
+   
+    margin: 10px 0px 15px 10px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    text-decoration: none;
+}
+.box .mall:hover{
+    text-decoration: underline;
+}
+.box {
+    height: 520px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.box-img{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .last{
+    margin: 0px 0px 5px 10px;
+}
+.box .last p{
+    font-size: 12px;
+}
+.box .last p span{
+    font-size: 17px;
+}
+.box .icon{
+    margin-left: 10px;
+    margin-bottom:10px;
+}
+.icon-yellow{
+    color:#faca51;
+}
+.icon span{
+ color: #1979c3;
+ font-size: 10px;
+}
+.icon span:hover{
+    text-decoration: underline;
+   }
+.box:hover{
+    box-shadow: 0px 0px 15px rgb(152, 152, 152);
+}
+.box .size{
+    align-items: center;
+    margin:15px 0px 10px 0px;
+}
+.box .size .s{
+    display:inline-block;
+    justify-content: center;
+    padding-top:5.5px;
+    color: #949494;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 12px;
+    height: 25px;
+    width: 35px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight:bold;
+}
+.box .size .s:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow:1px 1px 3px rgb(158, 158, 158);
+    transition: 0.5s;
+}
+.box .colour .s{
+    display:inline-block;
+    justify-content: center;
+    padding-top:5.5px;
+    color: #949494;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 12px;
+    height: 25px;
+    width: 35px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight:bold;
+}
+.box .colour .s:hover{
+ border: 1.5px solid red;
+ border-radius: 2px;
+}
+.atc-button{
+height: 35px;
+padding: 5px;
+margin: 10px 0px 10px 10px;
+background-color: #1979c3;
+color: #fff;
+border-radius: 3px;
+text-decoration:none;
+border: none;
+}
